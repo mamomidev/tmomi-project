@@ -4,5 +4,6 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tmomi" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tmomi_consumer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmomi_producer" vcs="Git" />
   </component>
 </project>

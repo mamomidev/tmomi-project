@@ -1,2 +1,2 @@
 rootProject.name = 'tmomi_sdk'
-include('tmomi', 'tmomi_consumer')
+include('tmomi', 'tmomi_consumer', 'tmomi_producer')

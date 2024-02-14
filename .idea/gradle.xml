@@ -11,6 +11,15 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/tmomi" />
             <option value="$PROJECT_DIR$/tmomi_consumer" />
+            <option value="$PROJECT_DIR$/tmomi_producer" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/tmomi_producer" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/tmomi_producer" />
           </set>
         </option>
       </GradleProjectSettings>
