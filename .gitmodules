@@ -1,0 +1,6 @@
+[submodule "tmomi"]
+	path = tmomi
+	url = https://github.com/mamomidev/tmomi.git
+[submodule "tmomi_consumer"]
+	path = tmomi_consumer
+	url = https://github.com/mamomidev/tmomi_consumer.git
