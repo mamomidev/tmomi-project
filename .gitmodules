@@ -6,3 +6,7 @@
 	path = tmomi_consumer
 	url = https://github.com/mamomidev/tmomi_consumer.git
 	branch = main
+[submodule "tmomi_producer"]
+	path = tmomi_producer
+	url = https://github.com/mamomidev/tmomi_producer.git
+	branch = main
