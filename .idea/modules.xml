@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tmomi_producer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/tmomi_producer.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/tmomi/tmomi_sdk.tmomi.main.iml" filepath="$PROJECT_DIR$/.idea/modules/tmomi/tmomi_sdk.tmomi.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/tmomi/tmomi_sdk.tmomi.test.iml" filepath="$PROJECT_DIR$/.idea/modules/tmomi/tmomi_sdk.tmomi.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tmomi_producer/tmomi_sdk.tmomi_producer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/tmomi_producer/tmomi_sdk.tmomi_producer.main.iml" />
     </modules>
   </component>
 </project>
