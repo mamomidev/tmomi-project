@@ -2,7 +2,7 @@
 <module version="4">
   <component name="AdditionalModuleElements">
     <content url="file://$MODULE_DIR$/../../../tmomi/src/test" dumb="true">
-      <sourceFolder url="file://$MODULE_DIR$/../../../tmomi/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../tmomi/src/test/java" isTestSource="true" />
     </content>
   </component>
   <component name="CheckStyle-IDEA-Module" serialisationVersion="2">
