@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/tmomi_producer.iml" filepath="$PROJECT_DIR$/.idea/modules/tmomi_producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/tmomi_producer.test.iml" filepath="$PROJECT_DIR$/.idea/modules/tmomi_producer.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tmomi/tmomi_sdk.tmomi.main.iml" filepath="$PROJECT_DIR$/.idea/modules/tmomi/tmomi_sdk.tmomi.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tmomi_consumer/tmomi_sdk.tmomi_consumer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/tmomi_consumer/tmomi_sdk.tmomi_consumer.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tmomi_producer/tmomi_sdk.tmomi_producer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/tmomi_producer/tmomi_sdk.tmomi_producer.main.iml" />
     </modules>
   </component>
 </project>
