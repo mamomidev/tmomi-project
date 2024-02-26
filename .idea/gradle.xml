@@ -15,16 +15,6 @@
           </set>
         </option>
       </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="delegatedBuild" value="false" />
-        <option name="testRunner" value="PLATFORM" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/tmomi_producer" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/tmomi_producer" />
-          </set>
-        </option>
-      </GradleProjectSettings>
     </option>
   </component>
 </project>

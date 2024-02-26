@@ -5,7 +5,4 @@
       <sourceFolder url="file://$MODULE_DIR$/../../../tmomi_producer/build/generated/sources/annotationProcessor/java/main" isTestSource="false" generated="true" />
     </content>
   </component>
-  <component name="CheckStyle-IDEA-Module" serialisationVersion="2">
-    <option name="activeLocationsIds" />
-  </component>
 </module>
