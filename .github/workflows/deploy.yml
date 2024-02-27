@@ -36,7 +36,7 @@ jobs:
           
        # 3 배포용 패키지 경로 저장
       - name: Set artifact
-        run: echo "artifact=$(ls ./tmomi-web/build/libs)" >> $GITHUB_ENV
+        run: echo "artifact=$(ls ./tmomi-web/build/libs | grep -v 'plain')" >> $GITHUB_ENV
         
        # 4 빈스토크 배포
       - name: Beanstalk Deploy
