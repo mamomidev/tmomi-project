@@ -1,12 +1,11 @@
-[submodule "tmomi"]
-	path = tmomi
-	url = https://github.com/mamomidev/tmomi.git
+[submodule "tmomi-consumer"]
+	path = tmomi-consumer
+	url = https://github.com/mamomidev/tmomi-consumer.git
 	branch = main
-[submodule "tmomi_consumer"]
-	path = tmomi_consumer
-	url = https://github.com/mamomidev/tmomi_consumer.git
+[submodule "tmomi-producer"]
+	path = tmomi-producer
+	url = https://github.com/mamomidev/tmomi-producer.git
 	branch = main
-[submodule "tmomi_producer"]
-	path = tmomi_producer
-	url = https://github.com/mamomidev/tmomi_producer.git
-	branch = main
+[submodule "tmomi-web"]
+	path = tmomi-web
+	url = https://github.com/mamomidev/tmomi-web.git
