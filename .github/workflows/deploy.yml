@@ -33,12 +33,12 @@ jobs:
         with:
           format: YYYY-MM-DDTHH-mm-ss
           utcOffset: "+09:00"
-          
-       # 3 배포용 패키지 경로 저장
+
+      # 3 배포용 패키지 경로 저장
       - name: Set artifact
         run: echo "artifact=$(ls ./tmomi-web/build/libs | grep -v 'plain')" >> $GITHUB_ENV
-        
-       # 4 빈스토크 배포
+
+      # 4 빈스토크 배포
       - name: Beanstalk Deploy
         uses: einaregilsson/beanstalk-deploy@v21
         with:
@@ -48,5 +48,5 @@ jobs:
           environment_name: Tmomi-project-env-1
           version_label: github-action-${{steps.current-time.outputs.formattedTime}}
           region: ap-northeast-2
-          deployment_package: ./build/libs/${{env.artifact}}
+          deployment_package: ./tmomi-web/build/libs/${{env.artifact}}
           wait_for_environment_recovery: 300
