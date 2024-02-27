@@ -22,5 +22,16 @@ gradle-app.setting
 .classpath
 
 .idea
+
 build
+
 htmlReport
+
+/tmomi-consumer/build/
+/tmomi-consumer/out/
+
+/tmomi-web/build/
+/tmomi-web/out/
+
+/tmomi-producer/out/
+/tmomi-producer/out/
