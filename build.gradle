@@ -73,5 +73,6 @@ project(':tmomi-consumer') {
 project(':tmomi-producer') {
     dependencies {
         implementation project(':tmomi-web')
+        implementation 'software.amazon.msk:aws-msk-iam-auth:2.0.3'
     }
 }
