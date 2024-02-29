@@ -51,8 +51,6 @@ subprojects {
 
         // ElasticSearch
         implementation 'org.springframework.boot:spring-boot-starter-data-elasticsearch'
-
-        implementation 'software.amazon.msk:aws-msk-iam-auth:2.0.3'
     }
 
     test {
@@ -68,12 +66,14 @@ project(':tmomi-web') {
 project(':tmomi-consumer') {
     dependencies {
         implementation project(':tmomi-web')
+        implementation 'software.amazon.msk:aws-msk-iam-auth:2.0.3'
     }
 }
 
 project(':tmomi-producer') {
     dependencies {
         implementation project(':tmomi-web')
+        implementation 'software.amazon.msk:aws-msk-iam-auth:2.0.3'
 
     }
 }
