@@ -50,3 +50,20 @@ jobs:
           region: ap-northeast-2
           deployment_package: ./tmomi-web/build/libs/${{env.artifact}}
           wait_for_environment_recovery: 500
+
+       # 3 consumer 패키지 경로 저장
+      - name: Set artifact
+        run: echo "artifact=$(ls ./tmomi-consumer/build/libs | grep -v 'plain')" >> $GITHUB_ENV
+
+      # 4 빈스토크 배포
+      - name: Beanstalk Deploy
+        uses: einaregilsson/beanstalk-deploy@v21
+        with:
+          aws_access_key: ${{ secrets.AWS_ACCESS_KEY }}
+          aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
+          application_name: tmomi-project
+          environment_name: Tmomi-consumer
+          version_label: github-action-${{steps.current-time.outputs.formattedTime}}
+          region: ap-northeast-2
+          deployment_package: ./tmomi-consumer/build/libs/${{env.artifact}}
+          wait_for_environment_recovery: 500
