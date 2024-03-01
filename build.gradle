@@ -51,6 +51,9 @@ subprojects {
 
         // ElasticSearch
         implementation 'org.springframework.boot:spring-boot-starter-data-elasticsearch'
+
+        implementation 'org.springframework.boot:spring-boot-starter-actuator'
+        implementation 'io.micrometer:micrometer-registry-prometheus'
     }
 
     test {
