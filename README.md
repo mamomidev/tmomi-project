@@ -53,11 +53,17 @@
 
 <br/>
 
+## ERD
+---
+![image](https://github.com/mamomidev/tmomi-project/assets/96118954/ad39f9bd-25db-4ded-a185-6ee3b382cec9)
+
+
 ## 서비스 아키텍처
 
 ---
 ![image](https://github.com/mamomidev/tmomi-project/assets/48711163/166a5671-cf9d-4cff-8b33-6c950681194c)
 <br/>
+
 
 ## 기술 스택
 
