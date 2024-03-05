@@ -28,6 +28,7 @@
 
 ## 주요 기능 및 테스트
  ### 대기열 및 대기 번호 전달
+ ![image](https://file.notion.so/f/f/ce6824ae-a886-4b15-910d-551b931c6d03/dae6a3f4-e774-47dd-b9fa-fe5b770e3612/Untitled.gif?id=7d0124e6-c834-495b-a496-379da48d5b0b&table=block&spaceId=ce6824ae-a886-4b15-910d-551b931c6d03&expirationTimestamp=1709740800000&signature=J0sF6Bx8nOT-wDZr_NCgHBt01Wefz0iLyig2SDQ1fos)
  ### 좌석 선택 시 동시성 제어
 - 대규모 트래픽 티켓팅 서비스에서 좌석 선택 시, 동시성 이슈가 발생할 수 있음.
 - Redis를 활용하여, 좌석에 대한 Lock을 통해 동시성을 제어.
