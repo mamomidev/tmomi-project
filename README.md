@@ -68,7 +68,7 @@
 ## ERD
 
 ---
-![image](https://github.com/mamomidev/tmomi-project/assets/96118954/ad39f9bd-25db-4ded-a185-6ee3b382cec9)
+![image](https://github.com/mamomidev/tmomi-web/assets/48711163/b9b76bfc-2bb8-4720-a2d6-a7e31a0aba44)
 <br/>
 
 ## 서비스 아키텍처
