@@ -1,13 +1,18 @@
-![image](https://github.com/mamomidev/tmomi-project/assets/48711163/538d8788-67ef-49c3-9183-16f383ae066f)
-<br/>
 
 # Tmomi
 
-<br/>
-
-<b>티모미<b>는 대용량 트래픽 및 트랜잭션 제어로 고가용성과 확장성을 확보한 티켓팅 서비스 입니다.
-티켓의 예매 순서 보장 및 1000만건의 데이터를 핸들링 하는 것이 목표입니다.
-<br/>
+<table>
+  <tr>
+    <td>
+      <h1>Tmomi</h1>
+      <b>티모미</b>는 대용량 트래픽 및 트랜잭션 제어로 고가용성과 확장성을 확보한 티켓팅 서비스 입니다.
+      티켓의 예매 순서 보장 및 1천만 건의 데이터를 핸들링 하는 것이 목표입니다.
+    </td>
+    <td>
+      <img src="https://github.com/mamomidev/tmomi-project/assets/48711163/538d8788-67ef-49c3-9183-16f383ae066f" alt="image" />
+    </td>
+  </tr>
+</table>
 
 # 👥 팀원
 
@@ -17,9 +22,8 @@
 | 🧑🏻‍💻 김태훈 | https://github.com/TaeHoon0 |
 | 🧑🏻‍💻 황영웅 | https://github.com/heroq    |
 
-<br/>
 
-# 🧳 깃허브
+# 🧳 형상관리
 
 | 이름       | 주소                                              |
 |----------|-------------------------------------------------|
@@ -27,14 +31,13 @@
 | Web      | https://github.com/mamomidev/tmomi.git          |
 | Producer | https://github.com/mamomidev/tmomi_producer.git |
 | Consumer | https://github.com/mamomidev/tmomi_consumer.git |
+| Notion   | [티모미 노션](https://tmomi.notion.site/db41f0cdd3954eac905003c2dbde633b) |
 
-<br/>
-
-## 주요 기능 및 테스트
+# 주요 기능 및 테스트
 
 ### 대기열 및 대기 번호 전달
-
-![image](https://file.notion.so/f/f/ce6824ae-a886-4b15-910d-551b931c6d03/dae6a3f4-e774-47dd-b9fa-fe5b770e3612/Untitled.gif?id=7d0124e6-c834-495b-a496-379da48d5b0b&table=block&spaceId=ce6824ae-a886-4b15-910d-551b931c6d03&expirationTimestamp=1709740800000&signature=J0sF6Bx8nOT-wDZr_NCgHBt01Wefz0iLyig2SDQ1fos)
+- 트래픽이 집중되었을 때 Kafka를 사용하여 순서를 보장.
+  ![image](https://file.notion.so/f/f/ce6824ae-a886-4b15-910d-551b931c6d03/dae6a3f4-e774-47dd-b9fa-fe5b770e3612/Untitled.gif?id=7d0124e6-c834-495b-a496-379da48d5b0b&table=block&spaceId=ce6824ae-a886-4b15-910d-551b931c6d03&expirationTimestamp=1709740800000&signature=J0sF6Bx8nOT-wDZr_NCgHBt01Wefz0iLyig2SDQ1fos)
 
 ### 좌석 선택 시 동시성 제어
 
@@ -65,21 +68,23 @@
 
 <br/>
 
-## ERD
+# ERD
+- Entity 및 Database 관계도
+  <p float="left">
+    <img src="https://github.com/mamomidev/tmomi-project/assets/102348866/b385c1a3-66a7-4c8b-a581-df070661ad42" width="485" />
+    <img src="https://github.com/mamomidev/tmomi-project/assets/102348866/5f4aeb92-8177-42da-a898-81000bc9f7d2" width="485" /> 
+  </p>
 
----
-![image](https://github.com/mamomidev/tmomi-web/assets/48711163/b9b76bfc-2bb8-4720-a2d6-a7e31a0aba44)
+
 <br/>
 
-## 서비스 아키텍처
+# 서비스 아키텍처
 
----
 ![image](https://github.com/mamomidev/tmomi-project/assets/48711163/166a5671-cf9d-4cff-8b33-6c950681194c)
 <br/>
 
-## 기술 스택
+# 기술 스택
 
----
 
 | 카테고리               | 사용 기술                                                                                               |
 |--------------------|-----------------------------------------------------------------------------------------------------|
@@ -94,9 +99,8 @@
 
 <br/>
 
-## 기술 의사 결정
+# 기술 의사 결정
 
----
 
 | 요구사항         | 선택지                               | 기술 선택 이유                                                                                                                                                                                                                                                                      |
 |--------------|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
