@@ -28,13 +28,15 @@
 | Producer | https://github.com/mamomidev/tmomi_producer.git |
 | Consumer | https://github.com/mamomidev/tmomi_consumer.git |
 
+# 📝 Notion
+[티모미 노션](https://tmomi.notion.site/db41f0cdd3954eac905003c2dbde633b)
 <br/>
 
-## 주요 기능 및 테스트
+# 주요 기능 및 테스트
 
 ### 대기열 및 대기 번호 전달
-
-![image](https://file.notion.so/f/f/ce6824ae-a886-4b15-910d-551b931c6d03/dae6a3f4-e774-47dd-b9fa-fe5b770e3612/Untitled.gif?id=7d0124e6-c834-495b-a496-379da48d5b0b&table=block&spaceId=ce6824ae-a886-4b15-910d-551b931c6d03&expirationTimestamp=1709740800000&signature=J0sF6Bx8nOT-wDZr_NCgHBt01Wefz0iLyig2SDQ1fos)
+- 트래픽이 집중되었을 때 Kafka를 사용하여 순서를 보장.
+  ![image](https://file.notion.so/f/f/ce6824ae-a886-4b15-910d-551b931c6d03/dae6a3f4-e774-47dd-b9fa-fe5b770e3612/Untitled.gif?id=7d0124e6-c834-495b-a496-379da48d5b0b&table=block&spaceId=ce6824ae-a886-4b15-910d-551b931c6d03&expirationTimestamp=1709740800000&signature=J0sF6Bx8nOT-wDZr_NCgHBt01Wefz0iLyig2SDQ1fos)
 
 ### 좌석 선택 시 동시성 제어
 
@@ -65,19 +67,19 @@
 
 <br/>
 
-## ERD
+# ERD
 
 ---
 ![image](https://github.com/mamomidev/tmomi-web/assets/48711163/b9b76bfc-2bb8-4720-a2d6-a7e31a0aba44)
 <br/>
 
-## 서비스 아키텍처
+# 서비스 아키텍처
 
 ---
 ![image](https://github.com/mamomidev/tmomi-project/assets/48711163/166a5671-cf9d-4cff-8b33-6c950681194c)
 <br/>
 
-## 기술 스택
+# 기술 스택
 
 ---
 
@@ -94,7 +96,7 @@
 
 <br/>
 
-## 기술 의사 결정
+# 기술 의사 결정
 
 ---
 
