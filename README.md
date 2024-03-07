@@ -71,8 +71,8 @@
 
 - Entity 및 Database 관계도
   <p float="left">
-    <img src="https://github.com/mamomidev/tmomi-project/assets/102348866/b385c1a3-66a7-4c8b-a581-df070661ad42" width="485" />
-    <img src="https://github.com/mamomidev/tmomi-project/assets/102348866/5f4aeb92-8177-42da-a898-81000bc9f7d2" width="485" /> 
+    <img src="https://github.com/mamomidev/tmomi-project/assets/102348866/b385c1a3-66a7-4c8b-a581-df070661ad42" width="480" />
+    <img src="https://github.com/mamomidev/tmomi-project/assets/102348866/5f4aeb92-8177-42da-a898-81000bc9f7d2" width="480" /> 
   </p>
 
 <br/>
