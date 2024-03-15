@@ -1,18 +1,16 @@
-# Tmomi
 
-<table>
-  <tr>
-    <td>
-      <h1>Tmomi</h1>
-      <b>티모미</b>는 대용량 트래픽 및 트랜잭션 제어로 고가용성과 확장성을 확보한 티켓팅 서비스 입니다.
-      티켓의 예매 순서 보장 및 1천만 건의 데이터를 핸들링 하는 것이 목표입니다.
-    </td>
-    <td>
-      <img src="https://github.com/mamomidev/tmomi-project/assets/48711163/538d8788-67ef-49c3-9183-16f383ae066f" alt="image" />
-    </td>
-  </tr>
-</table>
 
+<div align="center">
+  <img src="https://github.com/mamomidev/tmomi-project/assets/48711163/538d8788-67ef-49c3-9183-16f383ae066f" alt="image"/>
+</div>
+
+# 🎟️ Tmomi
+
+  ### <b>티모미</b>는 대용량 트래픽 및 트랜잭션 제어로 고가용성과 확장성을 확보한 티켓팅 서비스 입니다.
+  ### 티켓의 예매 순서 보장 및 1천만 건의 데이터를 핸들링 하는 것이 목표입니다.
+  
+  </br> 
+  
 # 👥 팀원
 
 | 이름          | 주소                          |
@@ -20,6 +18,8 @@
 | 👑 문혁준 (팀장) | https://github.com/mhj94    |
 | 🧑🏻‍💻 김태훈 | https://github.com/TaeHoon0 |
 | 🧑🏻‍💻 황영웅 | https://github.com/heroq    |
+
+ </br> 
 
 # 🧳 형상관리
 
@@ -31,6 +31,8 @@
 | Consumer | https://github.com/mamomidev/tmomi_consumer.git                      |
 | Notion   | [티모미 노션](https://tmomi.notion.site/db41f0cdd3954eac905003c2dbde633b) |
 
+ </br> 
+ 
 # 주요 기능 및 테스트
 
 ### 대기열 및 대기 번호 전달
