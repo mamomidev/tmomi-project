@@ -4,6 +4,10 @@
   <img src="https://github.com/mamomidev/tmomi-project/assets/48711163/538d8788-67ef-49c3-9183-16f383ae066f" alt="image"/>
 </div>
 
+
+-------
+![항해18기 앙케이트 상장 pptx (16)](https://github.com/mamomidev/tmomi-project/assets/102348866/ed745d5e-b5e4-46a0-ac19-3b61169ef71c)
+
 # 🎟️ Tmomi
 
   ### <b>티모미</b>는 대용량 트래픽 및 트랜잭션 제어로 고가용성과 확장성을 확보한 티켓팅 서비스 입니다.
