@@ -35,37 +35,49 @@
  
 # 주요 기능 및 테스트
 
-### 대기열 및 대기 번호 전달
-
+<details>
+<summary>대기열 및 대기 번호 전달</summary>
+  
 - 트래픽이 집중되었을 때 Kafka를 사용하여 순서를 보장.
-  ![image](https://file.notion.so/f/f/ce6824ae-a886-4b15-910d-551b931c6d03/dae6a3f4-e774-47dd-b9fa-fe5b770e3612/Untitled.gif?id=7d0124e6-c834-495b-a496-379da48d5b0b&table=block&spaceId=ce6824ae-a886-4b15-910d-551b931c6d03&expirationTimestamp=1709740800000&signature=J0sF6Bx8nOT-wDZr_NCgHBt01Wefz0iLyig2SDQ1fos)
+  
+![queueTest](https://github.com/mamomidev/tmomi-project/assets/102348866/7cb25489-e92f-4945-a028-5e93c5e6b22d)
+</details>
 
-### 좌석 선택 시 동시성 제어
-
+<details>
+<summary>좌석 선택 시 동시성 제어</summary>
+  
 - 대규모 트래픽 티켓팅 서비스에서 좌석 선택 시, 동시성 이슈가 발생할 수 있음.
 - Redis를 활용하여, 좌석에 대한 Lock을 통해 동시성을 제어.
-  ![image](https://github.com/mamomidev/tmomi-project/assets/96118954/0f57a0bf-ea19-4074-abcf-8fa0765d1605)
+
+![image](https://github.com/mamomidev/tmomi-project/assets/96118954/0f57a0bf-ea19-4074-abcf-8fa0765d1605)
 - 좌석 획득 100개 요청 시, 1개의 성공과 99개의 실패의 결과를 확인할 수 있음.
 - 1개의 성공 결과는 좌석에 대한 락을 획득하여, 나머지 99개의 실패 결과는 락을 획득하지 못하여 좌석 선택을 하지 못한 것을 확인할 수 있음.
+</details>
 
-### 대규모 데이터 핸들링
+<details>
+<summary>대규모 데이터 핸들링</summary>
 
 - 티켓 생성은 좌석 수만큼 생성.
 - 현재 서비스에서, 티켓 구매는 생성이 아닌, 미리 생성 된 row에서 Update가 되는 방식.
-  ![image](https://github.com/mamomidev/tmomi-project/assets/96118954/f5f2fbea-5c1b-4128-bd46-bd016ce71616)
 
+![image](https://github.com/mamomidev/tmomi-project/assets/96118954/f5f2fbea-5c1b-4128-bd46-bd016ce71616)
 - 빨간박스 안에 있는 그래프는 한 번에 데이터를 전송 했을 때, 파란색박스 안에 있는 그래프는 배치를 사용하여 데이터를 전송 했을 때 그래프.
 - 사용량이 두 배정도 줄인 것을 확인.
 - 흰색박스는 10만건, 50만건의 데이터를 전송해본 결과로, 각각 8s, 37s의 걸린 것을 확인.
+</details>
 
-### 대규모 트래픽 분산 오토 스케일링 그룹 + APM
-
+<details>
+<summary>대규모 트래픽 분산 오토 스케일링 그룹 + APM</summary>
+  
 - 대규모 트래픽이 집중되었을 때
-  ![image](https://github.com/mamomidev/tmomi-project/assets/96118954/e00a3c0e-a2be-4415-9de9-64b9fcc88df1)
+
+![image](https://github.com/mamomidev/tmomi-project/assets/96118954/e00a3c0e-a2be-4415-9de9-64b9fcc88df1)
 - 1개의 인스턴스에서, 트래픽이 집중되었을 때 Auto Scaling을 통해 부하를 줄일 수 있도록 구현.
 - 위의 모니터링을 통해 인스턴스가 2개로 확장 되었고, 그래프에서 각각 분산처리 하는 것을 확인.
-  ![image](https://github.com/mamomidev/tmomi-project/assets/96118954/dba18e06-1b0a-4567-a1b1-c9c2f02ad809)
+
+![image](https://github.com/mamomidev/tmomi-project/assets/96118954/dba18e06-1b0a-4567-a1b1-c9c2f02ad809)
 - Auto Scaling으로 생성된 EC2의 데이터도 수집하는 것을 확인할 수 있음.
+</details>
 
 <br/>
 
